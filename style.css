@@ -1,0 +1,238 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+   }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    background-color: #eaedf1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+ 
+  
+  p.title {
+    font-size: 2em;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: darkred;
+    margin: 0;
+  }
+  
+  .info {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .info p {
+    margin: 0;
+    font-size: 1.8em;
+    color: sienna;
+  }
+  
+  .info img {
+    border-radius: 50%; 
+    object-fit: cover;
+  }
+  
+  /* Main Content Styles*/
+  main.main {
+    padding: 20px;
+  }
+
+  .goals h2 {
+    font-size: 2em;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: darkred;
+    text-align: center;
+
+  }
+
+  .goals p {
+    font-size: 1.8em;
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: darkred;
+    text-align: center;
+
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: darkred;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+  
+  .goals ul,
+  .resources ul {
+    list-style: none;
+    padding: 20px 20px;
+    margin: 0;
+    color: sienna;
+    font-family: "Merriweather", serif;
+    font-size: 1.4em;
+  }
+  
+  .goals ul li {
+    margin-bottom: 8px;
+  }
+
+  .resources ul li {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .resources a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .resources a:hover {
+    color: #0056b3;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: sienna;
+    border-radius: 10px;
+    background-color: #e2e6ea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 5px;
+  }
+
+  footer a {
+    color: sienna;
+    text-decoration: none;
+
+  }
+
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    header.header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px;
+        text-align: center;
+      }
+  
+      p.title {
+        font-size: 1.2em;
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+  
+    .info {
+      align-items: center;
+      padding: 20px 20px;
+      gap: 5px;
+    }
+
+    .info p {
+        margin: 0;
+        font-size: 0.9em;
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        color: sienna;
+    }
+  
+    .info img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .goals h2 {
+        font-size: 1.2em;
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .goal p {
+        font-size: 0.4em;
+        font-weight: 400;
+    }
+
+    .goals ul,
+    .resources ul {
+        list-style: none;
+        padding: 20px 20px;
+        margin: 0;
+        font-weight: 700;
+        font-size: 0.8em;
+        color: sienna;
+  }
+
+  section h2 {
+    font-size: 1.2em;
+  }
+
+  footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  }
+  
+  @media only screen and (max-width: 480px) {
+
+    header.header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 10px;
+      }
+    
+    
+    p.title {
+        font-size: 1em;
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    section h2 {
+      font-size: 1.3em;
+    }
+  
+    .info p,
+    .resources a {
+      font-size: 0.7em;
+    }
+  }
+  
